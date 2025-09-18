@@ -67,3 +67,4 @@ int binsearch(int a[], int x, int low, int high)
         return binsearch(a, x, mid + 1, high);  // ✅ return added
     }
 }
+
